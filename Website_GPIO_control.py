@@ -43,7 +43,6 @@ def Website():
                     var xhttp = new XMLHttpRequest();
                     xhttp.open('GET', '/led/'+led, true);
                     xhttp.send();
-                    setTimeout(location.reload(true),3000);
                 }
                 function update(){
                     location.reload(true);
